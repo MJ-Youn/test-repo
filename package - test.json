@@ -1,0 +1,132 @@
+{
+  "assetAdministrationShells" : [ {
+    "modelType" : "AssetAdministrationShell",
+    "assetInformation" : {
+      "assetKind" : "Instance",
+      "globalAssetId" : ""
+    },
+    "derivedFrom" : {
+      "keys" : [ ],
+      "type" : null
+    },
+    "submodels" : [ {
+      "keys" : [ {
+        "type" : "Submodel",
+        "value" : "1433b93c-7284-453a-981d-042d7076c40d"
+      } ],
+      "type" : null
+    } ],
+    "embeddedDataSpecifications" : [ {
+      "dataSpecification" : {
+        "keys" : [ ],
+        "type" : null
+      }
+    } ],
+    "administration" : {
+      "revision" : "",
+      "version" : ""
+    },
+    "id" : "77b51fc3-f88c-4e6f-8918-655900e32e42",
+    "category" : "CONSTANT",
+    "idShort" : "test"
+  } ],
+  "submodels" : [ {
+    "modelType" : "Submodel",
+    "kind" : "Instance",
+    "semanticId" : {
+      "keys" : [ ],
+      "type" : null
+    },
+    "administration" : {
+      "revision" : "",
+      "version" : ""
+    },
+    "id" : "1433b93c-7284-453a-981d-042d7076c40d",
+    "category" : "CONSTANT",
+    "idShort" : "tset",
+    "submodelElements" : [ {
+      "modelType" : "SubmodelElementList",
+      "semanticId" : {
+        "keys" : [ ],
+        "type" : null
+      },
+      "category" : "",
+      "idShort" : "test submodel element list",
+      "orderRelevant" : false,
+      "semanticIdListElement" : {
+        "keys" : [ ],
+        "type" : null
+      },
+      "typeValueListElement" : "AnnotatedRelationshipElement",
+      "value" : [ {
+        "modelType" : "Property",
+        "value" : "112233",
+        "valueType" : "xs:string",
+        "category" : "",
+        "idShort" : "test"
+      } ],
+      "valueTypeListElement" : "xs:anyURI"
+    }, {
+      "modelType" : "Entity",
+      "entityType" : "CoManagedEntity",
+      "globalAssetId" : "",
+      "category" : "",
+      "idShort" : "event test id"
+    }, {
+      "modelType" : "Operation",
+      "category" : "",
+      "idShort" : "operation test id"
+    }, {
+      "modelType" : "Range",
+      "max" : "",
+      "min" : "",
+      "valueType" : "xs:anyURI",
+      "category" : "",
+      "idShort" : "range test id"
+    }, {
+      "modelType" : "Blob",
+      "contentType" : "text/plain",
+      "value" : "",
+      "category" : "",
+      "idShort" : "blob test id"
+    }, {
+      "modelType" : "AnnotatedRelationshipElement",
+      "category" : "",
+      "idShort" : "annotated relationship element test id",
+      "first" : {
+        "keys" : [ ],
+        "type" : null
+      },
+      "second" : {
+        "keys" : [ ],
+        "type" : null
+      }
+    }, {
+      "modelType" : "MultiLanguageProperty",
+      "value" : [ {
+        "language" : "Korean",
+        "text" : ""
+      } ],
+      "category" : "",
+      "idShort" : "multi language property test id"
+    }, {
+      "modelType" : "BasicEventElement",
+      "direction" : "input",
+      "lastUpdate" : "",
+      "maxInterval" : "",
+      "messageBroker" : {
+        "keys" : [ ],
+        "type" : null
+      },
+      "messageTopic" : "",
+      "minInterval" : "",
+      "observed" : {
+        "keys" : [ ],
+        "type" : null
+      },
+      "state" : "off",
+      "category" : "",
+      "idShort" : "basic event element test id"
+    } ]
+  } ]
+}
