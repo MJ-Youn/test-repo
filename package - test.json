@@ -7,7 +7,7 @@
     },
     "derivedFrom" : {
       "keys" : [ ],
-      "type" : null
+      "type" : "test"
     },
     "submodels" : [ {
       "keys" : [ {
